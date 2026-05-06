@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sounds Gay, I'm In - CORPO CALIENTE</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="product.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-scroll">
+      <span>FREE SHIPPING ON ORDERS OVER &euro;100</span>
+      <span>&star;</span>
+      <span>FREE SHIPPING ON ORDERS OVER &euro;100</span>
+      <span>&star;</span>
+      <span>FREE SHIPPING ON ORDERS OVER &euro;100</span>
+      <span>&star;</span>
+      <span>FREE SHIPPING ON ORDERS OVER &euro;100</span>
+      <span>&star;</span>
+      <span>FREE SHIPPING ON ORDERS OVER &euro;100</span>
+      <span>&star;</span>
+      <span>FREE SHIPPING ON ORDERS OVER &euro;100</span>
+      <span>&star;</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="header__nav">
+      <div class="header__left">
+        <a href="index.html" class="nav-link">New In</a>
+        <a href="shop.html" class="nav-link">Shop</a>
+        <button class="nav-link search-toggle" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+      </div>
+      <div class="header__center">
+        <a href="index.html" class="logo">CORPO<br>CALIENTE</a>
+      </div>
+      <div class="header__right">
+        <a href="#" class="nav-link icon-link" aria-label="Account">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </a>
+        <a href="#" class="nav-link icon-link" aria-label="Wishlist">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </a>
+        <a href="#" class="nav-link icon-link cart-icon" aria-label="Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb">
+    <a href="index.html">Home</a>
+    <span class="breadcrumb__sep">/</span>
+    <a href="shop.html">Shop</a>
+    <span class="breadcrumb__sep">/</span>
+    <a href="shop.html">Tees</a>
+    <span class="breadcrumb__sep">/</span>
+    <span class="breadcrumb__current">Sounds Gay, I'm In</span>
+  </nav>
+
+  <!-- Product Detail -->
+  <section class="pdp">
+    <!-- Image Gallery -->
+    <div class="pdp__gallery">
+      <div class="pdp__thumbs">
+        <button class="pdp__thumb pdp__thumb--active" data-index="0">
+          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=120&h=150&fit=crop" alt="Front view">
+        </button>
+        <button class="pdp__thumb" data-index="1">
+          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=120&h=150&fit=crop&crop=bottom" alt="Back view">
+        </button>
+        <button class="pdp__thumb" data-index="2">
+          <img src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=120&h=150&fit=crop" alt="Model shot">
+        </button>
+        <button class="pdp__thumb" data-index="3">
+          <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=120&h=150&fit=crop" alt="Detail shot">
+        </button>
+      </div>
+      <div class="pdp__main-image-wrap">
+        <span class="pdp__badge">New</span>
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=900&h=1100&fit=crop" alt="Sounds Gay, I'm In Tee" class="pdp__main-image" id="main-image">
+        <button class="pdp__nav pdp__nav--prev" id="gallery-prev" aria-label="Previous image">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button class="pdp__nav pdp__nav--next" id="gallery-next" aria-label="Next image">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Product Info -->
+    <div class="pdp__info">
+      <div class="pdp__info-inner">
+        <h1 class="pdp__title">Sounds Gay, I'm In</h1>
+        <p class="pdp__price">85 &euro;</p>
+        <p class="pdp__tax">Tax included. <a href="#">Shipping</a> calculated at checkout.</p>
+
+        <!-- Color -->
+        <div class="pdp__option">
+          <p class="pdp__option-label">Color &mdash; <span id="color-name">White</span></p>
+          <div class="pdp__color-swatches">
+            <button class="pdp__swatch pdp__swatch--active" data-color="White" style="background:#fff" aria-label="White"></button>
+            <button class="pdp__swatch" data-color="Black" style="background:#1a1a1a" aria-label="Black"></button>
+            <button class="pdp__swatch" data-color="Heather Grey" style="background:#b5b5b5" aria-label="Heather Grey"></button>
+          </div>
+        </div>
+
+        <!-- Size -->
+        <div class="pdp__option">
+          <div class="pdp__option-header">
+            <p class="pdp__option-label">Size</p>
+            <button class="pdp__size-guide-link" id="size-guide-toggle">Size Guide</button>
+          </div>
+          <div class="pdp__sizes">
+            <button class="pdp__size" data-size="XS">XS</button>
+            <button class="pdp__size" data-size="S">S</button>
+            <button class="pdp__size pdp__size--active" data-size="M">M</button>
+            <button class="pdp__size" data-size="L">L</button>
+            <button class="pdp__size" data-size="XL">XL</button>
+            <button class="pdp__size pdp__size--disabled" data-size="XXL" disabled>XXL</button>
+          </div>
+        </div>
+
+        <!-- Quantity + Add to Cart -->
+        <div class="pdp__actions">
+          <div class="pdp__quantity">
+            <button class="pdp__qty-btn" id="qty-minus" aria-label="Decrease quantity">&minus;</button>
+            <span class="pdp__qty-value" id="qty-value">1</span>
+            <button class="pdp__qty-btn" id="qty-plus" aria-label="Increase quantity">+</button>
+          </div>
+          <button class="pdp__add-to-cart" id="add-to-cart">Add to Cart &mdash; 85 &euro;</button>
+        </div>
+
+        <!-- Wishlist -->
+        <button class="pdp__wishlist" id="wishlist-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <span>Add to Wishlist</span>
+        </button>
+
+        <!-- Description Accordion -->
+        <div class="pdp__accordions">
+          <div class="pdp__accordion pdp__accordion--open">
+            <button class="pdp__accordion-trigger">
+              <span>Description</span>
+              <svg class="pdp__accordion-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="pdp__accordion-content">
+              <p>Statement tee with bold italic typography. A celebration of identity, pride, and unapologetic self-expression. Relaxed unisex fit with a slightly dropped shoulder for that effortless editorial look.</p>
+              <ul>
+                <li>100% organic cotton, 180 gsm</li>
+                <li>Screen-printed graphic (water-based inks)</li>
+                <li>Relaxed unisex fit</li>
+                <li>Ribbed crew neck</li>
+                <li>Pre-washed for softness</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="pdp__accordion">
+            <button class="pdp__accordion-trigger">
+              <span>Size &amp; Fit</span>
+              <svg class="pdp__accordion-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="pdp__accordion-content">
+              <p>Model is 185cm / 6'1" and wears size M. This style runs true to size. For an oversized look, size up one.</p>
+              <table class="pdp__size-table">
+                <thead>
+                  <tr><th></th><th>XS</th><th>S</th><th>M</th><th>L</th><th>XL</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Chest (cm)</td><td>96</td><td>100</td><td>106</td><td>112</td><td>118</td></tr>
+                  <tr><td>Length (cm)</td><td>68</td><td>70</td><td>72</td><td>74</td><td>76</td></tr>
+                  <tr><td>Sleeve (cm)</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="pdp__accordion">
+            <button class="pdp__accordion-trigger">
+              <span>Shipping &amp; Returns</span>
+              <svg class="pdp__accordion-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="pdp__accordion-content">
+              <p>Free shipping on orders over &euro;100. Standard delivery 3&ndash;5 business days. Express delivery 1&ndash;2 business days (&euro;9.90).</p>
+              <p>Returns accepted within 14 days of delivery. Items must be unworn with tags attached. Return shipping is free within the EU.</p>
+            </div>
+          </div>
+
+          <div class="pdp__accordion">
+            <button class="pdp__accordion-trigger">
+              <span>Care Instructions</span>
+              <svg class="pdp__accordion-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="pdp__accordion-content">
+              <ul>
+                <li>Machine wash cold, inside out</li>
+                <li>Do not bleach</li>
+                <li>Tumble dry low</li>
+                <li>Iron on reverse, avoid print</li>
+                <li>Do not dry clean</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- You May Also Like -->
+  <section class="pdp-related">
+    <h2 class="pdp-related__title">You May Also Like</h2>
+    <div class="pdp-related__grid">
+      <a href="#" class="product-card">
+        <div class="product-card__image-wrap">
+          <img src="https://images.unsplash.com/photo-1618886614638-80e3c103d31a?w=500&h=600&fit=crop" alt="Simply Sounds Gay" class="product-card__image">
+          <div class="product-card__quick">Quick Add</div>
+        </div>
+        <div class="product-card__info">
+          <h3>Simply Sounds Gay</h3>
+          <p class="product-card__price">85 &euro;</p>
+        </div>
+      </a>
+      <a href="#" class="product-card">
+        <div class="product-card__image-wrap">
+          <img src="https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=500&h=600&fit=crop" alt="Sounds Gay I'm Sleeveless" class="product-card__image">
+          <div class="product-card__quick">Quick Add</div>
+        </div>
+        <div class="product-card__info">
+          <h3>Sounds Gay I'm Sleeveless</h3>
+          <p class="product-card__price">75 &euro;</p>
+        </div>
+      </a>
+      <a href="#" class="product-card">
+        <div class="product-card__image-wrap">
+          <img src="https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=500&h=600&fit=crop" alt="Smells Gay I'm In" class="product-card__image">
+          <div class="product-card__quick">Quick Add</div>
+        </div>
+        <div class="product-card__info">
+          <h3>Smells Gay I'm In</h3>
+          <p class="product-card__price">25 &euro;</p>
+        </div>
+      </a>
+      <a href="#" class="product-card">
+        <div class="product-card__image-wrap">
+          <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop" alt="Sadao's Dream" class="product-card__image">
+          <span class="product-card__badge">New</span>
+          <div class="product-card__quick">Quick Add</div>
+        </div>
+        <div class="product-card__info">
+          <h3>Sadao's Dream</h3>
+          <p class="product-card__price">95 &euro;</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__col">
+        <h4>HELP</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Shipping &amp; Returns</a></li>
+          <li><a href="#">Size Guide</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>CUSTOMER CARE</h4>
+        <ul>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Track Order</a></li>
+          <li><a href="#">Gift Cards</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>COMPANY</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer__col footer__newsletter">
+        <h4>NEWSLETTER</h4>
+        <p>Sign up for 10% off your first order and receive the hottest updates.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault()">
+          <input type="email" placeholder="EMAIL" required>
+          <button type="submit" aria-label="Subscribe">&rarr;</button>
+        </form>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="TikTok">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1 0-5.78 2.92 2.92 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 3 15.57 6.33 6.33 0 0 0 9.37 22a6.33 6.33 0 0 0 6.37-6.23V9.07a8.16 8.16 0 0 0 4.85 1.58V7.2a4.85 4.85 0 0 1-1-.51z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__payment">
+        <span class="payment-icon">VISA</span>
+        <span class="payment-icon">MC</span>
+        <span class="payment-icon">AMEX</span>
+        <span class="payment-icon">PP</span>
+      </div>
+      <p>COPYRIGHT &copy; 2026. CORPO CALIENTE</p>
+      <p>ALL RIGHTS RESERVED</p>
+    </div>
+  </footer>
+
+  <script src="product.js"></script>
+</body>
+</html>
