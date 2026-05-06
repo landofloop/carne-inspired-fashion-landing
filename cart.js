@@ -114,9 +114,8 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.textContent = 'Redirecting...';
     btn.style.pointerEvents = 'none';
     setTimeout(() => {
-      btn.textContent = 'Proceed to Checkout';
-      btn.style.pointerEvents = '';
-    }, 2000);
+      window.location.href = 'checkout.html';
+    }, 600);
   });
 
   // Quick Add (recommendations)
