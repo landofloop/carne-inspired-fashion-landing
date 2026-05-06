@@ -2,7 +2,7 @@
 
 ## What this project is
 
-A bold, artistic multi-page site for a fictional fashion brand called **CORPO CALIENTE**. The brand sells graphic clothing with a provocative, sex-positive, and queer-friendly aesthetic. Inspired by the layout and identity of [Carne Bollente](https://www.carnebollente.com/). The goal is for visitors to explore the collection, feel the brand identity, and shop products easily.
+A bold, artistic multi-page site for a fictional fashion brand called **CORPO CALIENTE**. The brand sells graphic clothing with a provocative, provocative, and bold aesthetic. Inspired by the layout and identity of [Carne Bollente](https://www.carnebollente.com/). The goal is for visitors to explore the collection, feel the brand identity, and shop products easily.
 
 The site is live at: **https://landofloop.github.io/carne-inspired-fashion-landing/**
 
@@ -88,7 +88,7 @@ GitHub Actions workflow that deploys the site to GitHub Pages on every push to `
 
 ### Typography statements
 Bold, provocative slogans used as standalone visual sections:
-- `[SOUNDS GAY, I'M IN]` — section label for a pride-themed collection
+- `[FEEL THE HEAT]` — section label for a statement collection
 - `YOU ARE HOT →` — large serif typography with a "JOIN THE COMMUNITY" CTA button
 
 ## Pages
@@ -107,8 +107,8 @@ Both share the same header, footer, announcement bar, and base styles.
 4. **Product Grid 1** — 4 products: Sadao's Dream (95€), Echoes of Eros (195€), Heatwave Tango (120€), In Blue (145€ with color dots)
 5. **Editorial Split** — two full-width editorial images with [ICONIC PRINTS] and [ITALIANO À CR] labels
 6. **Product Grid 2** — 4 products: Benefits with Friends (85€), Lover Pants Gone Wild (210€), How I Met Your Father (145€), Rex Hoodie (185€ with color dots)
-7. **Statement Section** — two side-by-side editorial images + [SOUNDS GAY, I'M IN] label
-8. **Product Grid 3** — "Sounds Gay" collection: Sounds Gay I'm In (85€), Smells Gay I'm In (25€ socks), Simply Sounds Gay (85€), Sounds Gay I'm Sleeveless (75€)
+7. **Statement Section** — two side-by-side editorial images + [FEEL THE HEAT] label
+8. **Product Grid 3** — "Feel the Heat" collection: Sounds Gay I'm In (85€), Hot Steps (25€ socks), Clean Slate (85€), Sun Kissed Tank (75€)
 9. **Big Typography Statement** — "YOU ARE HOT →" in giant serif type + "JOIN THE COMMUNITY" button + editorial image with [@CORPOCALIENTE] tag
 10. **Footer** — 4-column: Help (FAQ, Contact, Shipping, Size Guide), Customer Care (Account, Track Order, Gift Cards), Company (About, Terms, Privacy, Careers), Newsletter (email signup + Instagram/TikTok icons). Bottom bar has payment icons (VISA, MC, AMEX, PP) and copyright.
 
@@ -134,10 +134,10 @@ Both share the same header, footer, announcement bar, and base styles.
 | Lover Pants Gone Wild     | 210€   | Bottoms     | Hot   |
 | How I Met Your Father     | 145€   | Tees        |       |
 | Rex Hoodie                | 185€   | Hoodies     |       |
-| Sounds Gay, I'm In        | 85€    | Tees        | New   |
-| Smells Gay I'm In         | 25€    | Accessories |       |
-| Simply Sounds Gay         | 85€    | Tees        |       |
-| Sounds Gay I'm Sleeveless | 75€    | Tanks       |       |
+| Feel the Heat        | 85€    | Tees        | New   |
+| Hot Steps         | 25€    | Accessories |       |
+| Clean Slate         | 85€    | Tees        |       |
+| Sun Kissed Tank | 75€    | Tanks       |       |
 | Tender Touch              | 155€   | Shirts      |       |
 | Kiss & Tell               | 90€    | Tees        | Hot   |
 | Body Language             | 205€   | Hoodies     |       |
@@ -147,7 +147,7 @@ Both share the same header, footer, announcement bar, and base styles.
 | Bare Minimum              | 70€    | Tanks       |       |
 | After Dark                | 160€   | Shirts      |       |
 | Skin on Skin              | 195€   | Hoodies     |       |
-| Pride Parade              | 85€    | Tees        |       |
+| Street Glow              | 85€    | Tees        |       |
 | Love Bites Tote           | 45€    | Accessories |       |
 | Night Moves               | 175€   | Bottoms     | Hot   |
 
@@ -167,5 +167,5 @@ Hosted on GitHub Pages. The workflow at `.github/workflows/deploy.yml` auto-depl
 - Does not code and does not want to learn — everything should be done for them.
 - Wants minimal permission prompts and friction.
 - Aesthetic preference: fashion editorial meets online store. Clean backgrounds, loud visuals.
-- Brand values: sex-positive, queer-friendly, provocative, playful/ironic humor in product names.
+- Brand values: bold, provocative, playful/ironic humor in product names.
 - Pricing in euros (€). European brand feel.
